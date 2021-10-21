@@ -124,25 +124,7 @@ class App extends React.Component {
     quantidadeProdutos: 0,
   };
 
-  // componentDidUpdate(prevProps, prevState) {
-  //   if (prevState.produtosNoCarrinho !== this.state.produtosNoCarrinho) {
-  //     localStorage.setItem(
-  //       "produtosNoCarrinho",
-  //       JSON.stringify(this.state.produtosNoCarrinho)
-  //     );
-  //   }
-  // }
-
-  // componentDidMount() {
-  //   const pegarProdutos = JSON.parse(
-  //     localStorage.getItem("produtosNoCarrinho")
-  //   );
-  //   if (pegarProdutos) {
-  //     this.setState({ produtosNoCarrinho: pegarProdutos || [] });
-  //     console.log(pegarProdutos)
-  //   }
-  // }
-
+  
   adicionaProduto = (produtoId) => {
     this.setState({
       adicionados: false,
