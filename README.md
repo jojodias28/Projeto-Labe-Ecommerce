@@ -5,7 +5,14 @@
 
 ## Objetivo do Projeto
 ㅤ
-Criar um site de e-Commerce usando os recursos React.
+A proposta era criar um site de e-Commerce com os recursos React.js usando o que aprendemos com:
+* Componentização
+* Styled-Components
+* Manipulação de Estado
+* Ciclos de vida
+* Renderização Condicional
+* LocalStorage
+
 ### O projeto consistirá em 3 grandes partes:
 ㅤ
 - **Home**
